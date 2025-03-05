@@ -11,6 +11,7 @@ import App from "./App";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Layout from "./Layout";
+import Authenticate from "./pages/Authenticate";
 
 
 
@@ -21,6 +22,8 @@ const router = createBrowserRouter(
 			<Route path="/" element={<App />} />
 			<Route path="about" element={<About />} />
 			<Route path="contact" element={<Contact />} />
+			<Route path="login" element={<Authenticate/>} />
+			<Route path="signup" element={<Authenticate />} />
 		</Route>
 	)
 );
