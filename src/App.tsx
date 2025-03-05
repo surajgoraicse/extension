@@ -1,10 +1,7 @@
-
 function App() {
 	return (
 		<>
-			<div className="min-h-screen">
-				hello
-			</div>
+			<div className="min-h-screen">helsdddddddddddddlo</div>
 		</>
 	);
 }

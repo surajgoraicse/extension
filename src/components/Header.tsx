@@ -19,11 +19,11 @@ import { Separator } from "./ui/separator";
 export function NavMenubar() {
 	return (
 		<div>
-			<div className="flex bg-[#020617] items-center h-10 py-2 pl-2 gap-2">
+			<div className="flex bg-[#F5F8FF] dark:bg-[#020617] items-center h-10 py-2 pl-2 gap-2">
 				<SidebarTrigger />
 				<Separator orientation="vertical" />
 
-				<Menubar className="border-none">
+				<Menubar className="border-none  bg-inherit shadow-none">
 					{/* <MenubarMenu>
 					<MenubarTrigger>
 						<SidebarTrigger />
