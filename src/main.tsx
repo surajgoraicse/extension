@@ -13,16 +13,13 @@ import Contact from "./pages/Contact";
 import Layout from "./Layout";
 import Authenticate from "./pages/Authenticate";
 
-
-
-
 const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route path="/" element={<Layout />}>
 			<Route path="/" element={<App />} />
 			<Route path="about" element={<About />} />
 			<Route path="contact" element={<Contact />} />
-			<Route path="login" element={<Authenticate/>} />
+			<Route path="login" element={<Authenticate />} />
 			<Route path="signup" element={<Authenticate />} />
 		</Route>
 	)
