@@ -7,7 +7,7 @@ import { AppSidebar } from "@/components/Sidebar";
 function Layout() {
 	return (
 		<>
-			<SidebarProvider>
+			<SidebarProvider className="">
 				<AppSidebar />
 				<main className="w-full ">
 					<div>

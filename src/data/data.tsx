@@ -19,7 +19,8 @@ const data = {
 			title: "SignUp",
 			active: true,
 			url: "#",
-		},
+		}
 	],
 };
 export default data;
+// #27272A
