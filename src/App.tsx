@@ -1,8 +1,10 @@
+import { ScrollAreaHorizontalDemo } from "./components/Horizonatal";
+
 function App() {
 	return (
-		<>
-			<div className="min-h-screen">helsdddddddddddddlo</div>
-		</>
+		<div className="w-full  ">
+			<ScrollAreaHorizontalDemo />
+		</div>
 	);
 }
 

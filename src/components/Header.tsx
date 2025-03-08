@@ -21,7 +21,7 @@ import { NavLink } from "react-router-dom";
 export function NavMenubar() {
 	return (
 		<div className=" bg-[#F5F8FF] dark:bg-[#09090B]  list-none ">
-			<div className="flex justify-between max-w-6xl ">
+			<div className="flex justify-between max-w-7xl ">
 				<div className="flex  items-center h-10 py-2 pl-2 gap-2">
 					<SidebarTrigger />
 					<Separator orientation="vertical" />

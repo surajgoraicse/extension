@@ -9,7 +9,7 @@ function Layout() {
 		<>
 			<SidebarProvider className="">
 				<AppSidebar />
-				<main className="w-full ">
+				<main className=" overflow-x-hidden w-screen ">
 					<div>
 						<Navbar />
 						<Outlet />
