@@ -1,6 +1,10 @@
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Separator } from "./ui/separator";
+import clsx from "clsx";
 
+interface HorizontalItemsProps {
+	className?: string;
+}
 export interface NotesI {
 	artist: string;
 	art: string;
@@ -52,9 +56,14 @@ export const notes: NotesI[] = [
 	},
 ];
 
-export function ScrollAreaHorizontalDemo() {
+export function HorizonatalItems({ className = "" }: HorizontalItemsProps) {
 	return (
-		<ScrollArea className=" m-4 pl-2 whitespace-nowrap rounded-md border">
+		<ScrollArea
+			className={clsx(
+				"m-4 pl-2 whitespace-nowrap rounded-md border ",
+				className
+			)}
+		>
 			<div className="flex w-max space-x-4 p-4">
 				{notes.map(() => {
 					return (
@@ -69,7 +78,10 @@ export function ScrollAreaHorizontalDemo() {
 										Lorem ipsum dolor sit amet consectetur adipisicing elit.
 										Tenetur repellat assumenda suscipit a saepe aspernatur eaque
 										dolorem! Doloremque dolor exercitationem magni aliquam.
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem vitae sunt totam similique ducimus porro nobis, et odit rem obcaecati voluptate doloribus aperiam amet esse corrupti ipsum. Sit, quia placeat!
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Voluptatem vitae sunt totam similique ducimus porro nobis,
+										et odit rem obcaecati voluptate doloribus aperiam amet esse
+										corrupti ipsum. Sit, quia placeat!
 									</p>
 								</div>
 								<div className="flex  h-10 gap-4 overflow-hidden items-center ">
