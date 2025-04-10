@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + shadcnui
 this is a readme file
 
 [UI reference](https://evernote.com/blog/new-ui-2024)
